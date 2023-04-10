@@ -132,7 +132,7 @@ body {
   font-size: 20px;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
-  color: var(--primary-color)
+  color: var(--primary-color);
 }
 
 .member-position {
@@ -189,12 +189,12 @@ body {
   font-size: 20px;
   line-height: calc(24 / 20);
   color: var(--primary-color);
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 }
 
 .project-type {
   font-size: 16px;
   line-height: 1.5;
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   color: var(--main-color);
 }
