@@ -1,17 +1,16 @@
 :root {
-    --main-color: #434455;
-    --primary-color: #2e2f42;
-    --slate: #434455;
-    --total-white: #FFFFFF;
-    --cloud: #f4f4fd;
-    --iris: #4d5ae5;
-    --ocean: #404bbf;
+  --main-color: #434455;
+  --primary-color: #2e2f42;
+  --total-white: #ffffff;
+  --cloud: #f4f4fd;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color: var(--primary-color);
+  color: var(--main-color);
   background-color: var(--total-white);
 }
 
@@ -30,7 +29,8 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(21 / 18);
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
   color: var(--iris);
 }
 
@@ -42,6 +42,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
   color: currentColor;
 }
 
@@ -50,11 +51,15 @@ body {
   color: var(--ocean);
 }
 
-.contact {
+.adress {
   font-style: normal;
+}
+
+.contact {
   font-size: 16px;
   line-height: calc(24 / 16);
-  color: var(--slate);
+  color: var(--main-color);
+  letter-spacing: 0.02em;
 }
 
 .contact:hover,
@@ -69,14 +74,18 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: calc(60 / 56);
+  line-height: 1, 07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--total-white);
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
   color: var(--total-white);
   background-color: var(--iris);
   border: none;
@@ -92,30 +101,46 @@ body {
 .feature {
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
   line-height: calc(24 / 20);
 }
 
 .feature-desc {
   font-size: 16px;
   line-height: calc(24 / 16);
-  color: var(--slate);
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(40 / 36);
+  line-height: 1, 11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-section {
+  background-color: var(--cloud);
 }
 
 .member {
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
 }
 
 .member-position {
   font-size: 16px;
   line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.member-card {
+  background-color: var(--total-white);
 }
 
 /*footer*/
@@ -137,11 +162,11 @@ body {
 /*portfolio*/
 
 .filter {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
   background-color: var(--cloud);
   color: var(--iris);
   border: 1px solid #e7e9fc;
@@ -164,5 +189,5 @@ letter-spacing: 0.04em;
 .project-type {
   font-size: 20px;
   line-height: calc(24 / 20);
-  color: var(--slate);
+  color: var(--main-color);
 }
