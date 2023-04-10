@@ -43,7 +43,7 @@ body {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  color: currentColor;
+  color: var(--primary-color);
 }
 
 .nav-link:hover,
@@ -74,7 +74,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1. 07;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--total-white);
@@ -103,6 +103,7 @@ body {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: calc(24 / 20);
+  color: var(--primary-color);
 }
 
 .feature-desc {
@@ -115,10 +116,11 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1. 11;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--primary-color);
 }
 
 .team-section {
@@ -130,6 +132,7 @@ body {
   font-size: 20px;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
+  color: var(--primary-color)
 }
 
 .member-position {
@@ -186,10 +189,12 @@ body {
   font-size: 20px;
   line-height: calc(24 / 20);
   color: var(--primary-color);
+letter-spacing: 0.02em;
 }
 
 .project-type {
-  font-size: 20px;
-  line-height: calc(24 / 20);
+  font-size: 16px;
+  line-height: 1.5;
+letter-spacing: 0.02em;
   color: var(--main-color);
 }
