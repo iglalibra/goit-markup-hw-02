@@ -1,124 +1,155 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #2E2F42;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #2e2f42;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*header*/
 
 .logo {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: calc(21/18);
-    color: #4D5AE5;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  color: #4d5ae5;
 }
 
 .logo-part {
-    color: #2E2F42;
+  color: #2e2f42;
 }
 
 .nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(24/16);
-    color: #2E2F42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #2e2f42;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #404BBF;
+  color: #404bbf;
 }
 
 .contact {
-    font-style: normal;
-    font-size: 16px;
-    line-height: calc(24/16);
-    color: #434455;
+  font-style: normal;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #434455;
 }
 
 .contact:hover,
 .contact:focus {
-    color: #404BBF;
+  color: #404bbf;
 }
 /*main*/
 .main-title-box {
-    background: #2E2F42;
+  background: #2e2f42;
 }
 
 .hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: calc(60/56);
-    color: #FFFFFF;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  color: #ffffff;
 }
 
 .hero-btn {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: calc(24/16);
-        color: #FFFFFF;
-        background: #4D5AE5;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #ffffff;
+  background: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background: #404BBF;
+  background: #404bbf;
 }
 
 .feature {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: calc(24/20);        
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
 }
 
 .feature-desc {
-    font-size: 16px;
-        line-height: calc(24/16);
-        color: #434455;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #434455;
 }
 
 .section-title {
-    font-weight: 700;
-        font-size: 36px;
-        line-height: calc(40/36);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
 }
 
 .member {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: calc(24/20);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
 }
 
 .member-position {
-    font-size: 16px;
-        line-height: calc(24/16);
+  font-size: 16px;
+  line-height: calc(24 / 16);
 }
 
 /*footer*/
 
 .footer {
-    background: #2E2F42;
+  background: #2e2f42;
 }
 
 .footer-logo-part {
-    color: #F4F4FD;
+  color: #f4f4fd;
 }
 
 .footer-desc {
-    font-size: 16px;
-        line-height: calc(24/16);
-        color: #F4F4FD;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: #f4f4fd;
+}
+
+/*portfolio*/
+
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  background: #f4f4fd;
+  color: #4d5ae5;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter:hover,
+.filter:active {
+  background: #404bbf;
+  color: #ffffff;
+}
+
+.project-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+}
+
+.project-type {
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: #434455;
 }
