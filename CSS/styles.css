@@ -1,7 +1,16 @@
+:root {
+    --primary-color: #2e2f42;
+    --slate: #434455;
+    --total-white: #FFFFFF;
+    --cloud: #f4f4fd;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color: #2e2f42;
+  color: var(--primary-color);
 }
 
 .list {
@@ -20,54 +29,54 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: calc(21 / 18);
-  color: #4d5ae5;
+  color: var(--iris);
 }
 
 .logo-part {
-  color: #2e2f42;
+  color: var(--primary-color);
 }
 
 .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
-  color: #2e2f42;
+  color: currentColor;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 .contact {
   font-style: normal;
   font-size: 16px;
   line-height: calc(24 / 16);
-  color: #434455;
+  color: var(--slate);
 }
 
 .contact:hover,
 .contact:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 /*main*/
 .main-title-box {
-  background: #2e2f42;
+  background: var(--primary-color);
 }
 
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: calc(60 / 56);
-  color: #ffffff;
+  color: var(--total-white);
 }
 
 .hero-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
-  color: #ffffff;
-  background: #4d5ae5;
+  color: var(--total-white);
+  background: var(--iris);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -75,7 +84,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: #404bbf;
+  background: var(--ocean);
 }
 
 .feature {
@@ -87,7 +96,7 @@ body {
 .feature-desc {
   font-size: 16px;
   line-height: calc(24 / 16);
-  color: #434455;
+  color: var(--slate);
 }
 
 .section-title {
@@ -110,17 +119,17 @@ body {
 /*footer*/
 
 .footer {
-  background: #2e2f42;
+  background: var(--primary-color);
 }
 
 .footer-logo-part {
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 
 .footer-desc {
   font-size: 16px;
   line-height: calc(24 / 16);
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 
 /*portfolio*/
@@ -129,8 +138,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
-  background: #f4f4fd;
-  color: #4d5ae5;
+  background: var(--cloud);
+  color: var(--iris);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
@@ -138,8 +147,8 @@ body {
 
 .filter:hover,
 .filter:active {
-  background: #404bbf;
-  color: #ffffff;
+  background: var(--ocean);
+  color: var(--total-white);
 }
 
 .project-name {
@@ -151,5 +160,5 @@ body {
 .project-type {
   font-size: 20px;
   line-height: calc(24 / 20);
-  color: #434455;
+  color: var(--slate);
 }
